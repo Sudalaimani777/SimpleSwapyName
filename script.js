@@ -1,13 +1,13 @@
 const userSwappy = prompt(`Enter Your Name to swap`);
-const firstNumberMethodSlice = userSwappy.slice(0,1);
-const middleNumberMethodSlice = userSwappy.slice(1,length-1)
-const lastNumberMethodSlice = userSwappy.slice(length-1);
+const firstCharSlice = userSwappy.slice(0,1);
+const middleCharSlice = userSwappy.slice(1,length-1)
+const lastCharSlice = userSwappy.slice(length-1);
 
-console.log(firstNumberMethodSlice);
-console.log(middleNumberMethodSlice);
-console.log(lastNumberMethodSlice);
+console.log(firstCharSlice);
+console.log(middleCharSlice);
+console.log(lastCharSlice);
 
-const swappyName = alert(`Your Swappy name is ${lastNumberMethodSlice}${middleNumberMethodSlice}${firstNumberMethodSlice}`);
+const swappyName = alert(`Your Swappy name is ${lastCharSlice}${middleCharSlice}${firstCharSlice}`);
 console.log(swappyName);
 
 
